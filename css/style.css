@@ -108,7 +108,7 @@ body {
   padding-top: 50px;
 }
 
-.experience p{
+.p{
   font-size: var(--p-font);
   font-weight: 400;
 }
@@ -391,6 +391,11 @@ form textarea {
   .heading {
     text-align: center;
     margin-top: 5%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
   }
   .heading2 {
     text-align: center;
